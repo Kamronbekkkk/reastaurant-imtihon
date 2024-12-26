@@ -1,0 +1,146 @@
+ .container {
+    width: 100%;
+    max-width: 1300px; 
+    margin: 0 auto;
+    background: white;
+    overflow: hidden; 
+  }
+  
+  .singleMain-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .singleMain-inner__img {
+    width: 100%;
+    height: 350px; 
+    object-fit: cover; 
+  }
+  
+  .singleMain-inner__inner{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+  }
+
+  .singleMain-inner__box {
+    text-align: center;
+    margin-top: 15px;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 1400px;
+  }
+  .singleMain-inner__box-2 {
+    display: flex;
+    align-items: first baseline;
+    width: 700px;
+  }
+
+  .singleMain-inner__box-inner{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+  }
+
+  .singleMain-inner__box-inner-p{
+    color: #6c757d;
+  }
+  
+  .singleMain-inner__box h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #6c757d;
+  }
+  
+  p{
+    color: #6c757d;
+  }
+
+  .singleMain-inner__box-3 {
+    margin-top: 30px;
+  }
+
+  .singlePage-description{
+    margin-top: 28px;
+    font-size: 15px;
+    color:#6c757d;
+  }
+  
+  h3{
+    color: #6c757d;
+    font-size: 25px;
+    margin-left:-1000px;
+  }
+
+  .menu{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .burger-button{
+    width: 60px;
+    color: #e0a800;
+  }
+
+  .singleMain-inner__box-inner-time{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .singleMain-inner__box-inner-time-icon{
+    color:#e0a800;
+  }
+
+  .menu-icon{
+    color: #e0a800;
+  }
+
+  .location{
+    color: #e0a800;
+  }
+
+  .time {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .time2 {
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    flex: 1;  
+  }
+  
+  .time-true {
+    background-color: #ffc107; 
+    color: #fff;
+    border: 1px solid #e0a800;
+  }
+  
+  .time-false {
+    background-color: #e9ecef;
+    color: #6c757d;
+    border: 1px solid #d6d8db;
+  }
+  
+  .time2:hover {
+    opacity: 0.9;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: #6c757d;
+    margin-bottom: 20px;
+    font-weight: bold; 
+    margin-left: -1148px;
+  } 
